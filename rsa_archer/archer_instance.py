@@ -21,7 +21,7 @@ class ArcherInstance:
 
 	def __init__(self, inst_url, instance_name, username, password):
 
-		self.api_url_base = f"https://{inst_url}/RSAarcher/api/"
+		self.api_url_base = f"https://{inst_url}/api/"
 		self.content_api_url_base = f"https://{inst_url}/RSAarcher/contentapi/"
 		self.username = username
 		self.password = password
